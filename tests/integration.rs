@@ -1,4 +1,4 @@
-use dayXX::{part1, part2};
+use {{project-name}}::{part1, part2};
 
 #[test]
 fn test_part1_sample() {
