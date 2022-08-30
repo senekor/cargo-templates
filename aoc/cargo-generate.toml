@@ -4,3 +4,16 @@ ignore = [
   "Cargo.lock",
   "README.md", 
 ]
+
+[placeholders.year]
+type = "string"
+prompt = "year"
+regex = "^[1-9][0-9]$"
+
+[placeholders.day]
+type = "string"
+prompt = "day"
+regex = "^0[1-9]|1[0-9]|2[0-5]$"
+
+[hooks]
+pre = ["pre-script.rhai"]
