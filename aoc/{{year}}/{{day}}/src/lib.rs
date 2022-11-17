@@ -1,9 +1,11 @@
-pub fn part1(input: &str) -> usize {
-    todo!()
+pub fn part1(input: &str) -> impl Debug {
+    
+    "not yet implemented!"
 }
 
-pub fn part2(input: &str) -> usize {
-    todo!()
+pub fn part2(input: &str) -> impl Debug {
+    
+    "not yet implemented!"
 }
 
 // #[cfg(test)]
