@@ -1,8 +1,9 @@
 use {{project-name}}::{part1, part2};
 use utils::output::Output;
 
+static INPUT: &str = include_str!("../input/input.txt");
+
 fn main() {
-    let input = include_str!("../input/input.txt");
-    println!("part1: {}", part1(input).output());
-    println!("part2: {}", part2(input).output());
+    println!("part1: {}", part1(INPUT).output());
+    println!("part2: {}", part2(INPUT).output());
 }
