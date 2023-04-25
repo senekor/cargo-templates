@@ -1,10 +1,10 @@
 use utils::{
     nom::{character::complete::newline, multi::separated_list0, IResult},
-    parse::integer,
+    parse::integer::i32,
 };
 
 pub(crate) fn numbers(input: &str) -> IResult<&str, Vec<i32>> {
-    separated_list0(newline, integer::i32)(input)
+    separated_list0(newline, i32)(input)
 }
 
 #[test]
