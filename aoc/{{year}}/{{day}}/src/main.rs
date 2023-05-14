@@ -1,3 +1,1 @@
-fn main() {
-    utils::main!({{project-name}});
-}
+utils::main!({{project-name}});
