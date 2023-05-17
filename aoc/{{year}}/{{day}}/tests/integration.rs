@@ -16,7 +16,7 @@ fn test_part2_sample() {
 }
 
 utils::solution!(
-    aoc_22_15;
+    {{project-name}};
     TODO;
     TODO;
 );
